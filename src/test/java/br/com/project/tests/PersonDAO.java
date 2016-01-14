@@ -6,7 +6,7 @@ import br.com.project.daojpa.DAO;
 import br.com.project.daojpa.DAOPerson;
 import br.com.project.models.Person;
 
-public class PersonTest {
+public class PersonDAO {
 	
 	@Test
 	public void createPerson(){

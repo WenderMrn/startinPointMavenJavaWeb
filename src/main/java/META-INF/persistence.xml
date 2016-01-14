@@ -5,19 +5,19 @@
 		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 		<!--  <class>modelo.Pessoa</class>  -->
 		<exclude-unlisted-classes>false</exclude-unlisted-classes>
-<!--  
+  
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
-		    <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/databasename" />
+		    <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/startingpoint" />
 		    <property name="javax.persistence.jdbc.user" value="postgres" />
-		    <property name="javax.persistence.jdbc.password" value="" />
+		    <property name="javax.persistence.jdbc.password" value="root" />
 		    
 		    <property name="eclipselink.ddl-generation" value="create-tables" />
 		    <property name="eclipselink.ddl-generation.output-mode" value="database"/>
 		    <property name="eclipselink.logging.level" value="off"/>	    
 		</properties>	
--->		
- 
+	
+		<!-- 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
 		    <property name="javax.persistence.jdbc.url"  value="jdbc:mysql://127.0.0.1:3306/databasename" />
@@ -29,7 +29,7 @@
 		    <property name="eclipselink.logging.level" value="off"/>
 		       	    
 		</properties>
-
+		-->		
 		<!--ORACLE <properties>
 			<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver" />
 		    <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:XE/agenda" />
